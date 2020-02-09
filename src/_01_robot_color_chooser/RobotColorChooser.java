@@ -14,6 +14,7 @@ public class RobotColorChooser {
 	public static void main(String[] args) {
 		//1. Create a new Robot
 		Robot rob = new Robot();
+		rob.setSpeed(100);
 		rob.setPenWidth(10);
 		rob.penDown();
 		//3. Ask the user what color they would like the robot to draw
