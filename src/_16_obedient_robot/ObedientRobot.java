@@ -64,7 +64,7 @@ public class ObedientRobot {
 			             drawSquare();
 		}else if(drawBoi.equalsIgnoreCase("Circle")) {
 			drawCircle();
-		}else {
+		}else if(drawBoi.equalsIgnoreCase("Triangle")){
 			drawTriangle();
 		}
 		
